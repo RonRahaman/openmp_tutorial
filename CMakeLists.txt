@@ -1,5 +1,7 @@
 project(openmp_tutorial C)
 
+set(CMAKE_C_STANDARD 99)
+
 add_library(mpcs_hpc src/mpcs_hpc/tick.c src/mpcs_hpc/mat_types.c)
 include_directories(include)
 
